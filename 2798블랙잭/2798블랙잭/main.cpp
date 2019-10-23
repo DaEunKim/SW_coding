@@ -13,52 +13,38 @@
 using namespace std;
 
 int N, M; // 카드 개수, 카드 숫자의 합
+int k = 3;
 vector<int> v;
 int sum = 0;
+int ans = 0;
 
-int calc(vector<int> v){
-    int sum = 0;
-    for(int i = 0;i<3;i++){
+void combination(int start, vector<int> v, int *arr){
+    if(v.size() == k){
+        for(int i = 0; i < v.size(); i++){
+            sum += v[i];
+        }
+        if(sum<=M)
+            ans = max(ans, sum);
+        sum = 0;
         
-        sum += v[i];
-    }
-    return sum;
-}
-
-void combination(int cardNum[], int arr[], int index, int n, int r, int target) {
-    if (r == 0) {
-        for(int i = 0;i<index;i++){
-            v.push_back(cardNum[arr[i]]);
-        }
-        if(sum<M){
-            while(next_permutation(v.begin(), v.end()) ){
-                sum = max(sum, calc(v));
-            }
-            
-        }
-    }
-    else if (target == n)
         return;
-    else {
-        arr[index] = target;
-        combination(cardNum, arr, index + 1, n, r - 1, target + 1);
-        combination(cardNum, arr, index, n, r, target + 1);
     }
+    for(int i = start+1; i < N; i++){
+        v.push_back(arr[i]);
+        combination(i, v, arr);
+        v.pop_back();
+    }
+    return;
 }
 
 
 int main(int argc, const char * argv[]) {
-    
     cin >> N >> M;
     int cardNum[300000];
-    
+    vector<int> v;
     for(int i = 0;i<N;i++){
         cin >> cardNum[i];
     }
-    
-    int arr[300000] = {0,};
-    combination(cardNum, arr, 0, N, 3, 0);
-
-    cout<< sum <<endl;
-    
+    combination(-1, v, cardNum);
+    cout<< ans <<endl;
 }
