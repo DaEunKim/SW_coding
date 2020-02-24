@@ -98,8 +98,12 @@ int main(int argc, const char * argv[]) {
         for(int j = 0;j<M;j++){
             if(arr[i][j]==0){
                 memcpy(cpyArr, arr, sizeof(arr));
+                
                 cpyArr[i][j] = 1;
+                
+                
                 makeWall(1);
+                
                 cpyArr[i][j] = 0;
             }
         }
