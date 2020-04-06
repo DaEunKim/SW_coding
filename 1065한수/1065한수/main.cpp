@@ -2,6 +2,7 @@
 //  main.cpp
 //  1065한수
 //
+<<<<<<< HEAD
 //  Created by 김다은 on 04/04/2020.
 //  Copyright © 2020 김다은. All rights reserved.
 //
@@ -79,4 +80,37 @@ int main(){
     int result = solution(road, 3);
     cout<< result<<endl;
     
+=======
+//  Created by 김다은 on 2020/04/06.
+//  Copyright © 2020 김다은. All rights reserved.
+//
+
+#include <iostream>
+using namespace std;
+
+bool hansoo(int num){
+    if(num < 100)
+        return true;
+    
+    int inHundred = num / 100;
+    int inTen = (num % 100) / 10;
+    int inOne = (num % 100) % 10;
+    if(inHundred - inTen == inTen - inOne)
+        return true;
+    return false;
+    
+}
+
+int main(int argc, const char * argv[]) {
+    int N;
+    cin >> N;
+    
+    int cnt = 0;
+    for(int i = 1;i<=N;i++){
+        if(hansoo(i)){
+            cnt++;
+        }
+    }
+    cout<< cnt<<endl;
+>>>>>>> a44af2984420b7dcf3cdd5d89b08701fc040bc54
 }
