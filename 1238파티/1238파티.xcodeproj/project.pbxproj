@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		2478C6FE244DA1B7008BE3F3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2478C6FD244DA1B7008BE3F3 /* main.cpp */; };
+		285718F124683B25001D599C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 285718F024683B25001D599C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2478C6F8244DA1B6008BE3F3 /* CopyFiles */ = {
-
+		285718EB24683B25001D599C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-
-		2478C6FA244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9205맥주마시면서걸어가기"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2478C6FD244DA1B7008BE3F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		285718ED24683B25001D599C /* 1238파티 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1238파티"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285718F024683B25001D599C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2478C6F7244DA1B6008BE3F3 /* Frameworks */ = {
-
+		285718EA24683B25001D599C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,75 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-
-		2478C6F1244DA1B6008BE3F3 = {
+		285718E424683B25001D599C = {
 			isa = PBXGroup;
 			children = (
-				2478C6FC244DA1B7008BE3F3 /* 9205맥주마시면서걸어가기 */,
-				2478C6FB244DA1B6008BE3F3 /* Products */,
+				285718EF24683B25001D599C /* 1238파티 */,
+				285718EE24683B25001D599C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2478C6FB244DA1B6008BE3F3 /* Products */ = {
+		285718EE24683B25001D599C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2478C6FA244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */,
-
+				285718ED24683B25001D599C /* 1238파티 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-
-		2478C6FC244DA1B7008BE3F3 /* 9205맥주마시면서걸어가기 */ = {
+		285718EF24683B25001D599C /* 1238파티 */ = {
 			isa = PBXGroup;
 			children = (
-				2478C6FD244DA1B7008BE3F3 /* main.cpp */,
-
+				285718F024683B25001D599C /* main.cpp */,
 			);
-			path = "9205맥주마시면서걸어가기";
+			path = "1238파티";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-
-		2478C6F9244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */ = {
+		285718EC24683B25001D599C /* 1238파티 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2478C701244DA1B7008BE3F3 /* Build configuration list for PBXNativeTarget "9205맥주마시면서걸어가기" */;
+			buildConfigurationList = 285718F424683B25001D599C /* Build configuration list for PBXNativeTarget "1238파티" */;
 			buildPhases = (
-				2478C6F6244DA1B6008BE3F3 /* Sources */,
-				2478C6F7244DA1B6008BE3F3 /* Frameworks */,
-				2478C6F8244DA1B6008BE3F3 /* CopyFiles */,
-
+				285718E924683B25001D599C /* Sources */,
+				285718EA24683B25001D599C /* Frameworks */,
+				285718EB24683B25001D599C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "9205맥주마시면서걸어가기";
-			productName = "9205맥주마시면서걸어가기";
-
-			productReference = 2478C6FA244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */;
-
+			name = "1238파티";
+			productName = "1238파티";
+			productReference = 285718ED24683B25001D599C /* 1238파티 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-
-		2478C6F2244DA1B6008BE3F3 /* Project object */ = {
+		285718E524683B25001D599C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "김다은";
 				TargetAttributes = {
-					2478C6F9244DA1B6008BE3F3 = {
+					285718EC24683B25001D599C = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 2478C6F5244DA1B6008BE3F3 /* Build configuration list for PBXProject "9205맥주마시면서걸어가기" */;
-
+			buildConfigurationList = 285718E824683B25001D599C /* Build configuration list for PBXProject "1238파티" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,35 +104,29 @@
 				en,
 				Base,
 			);
-
-			mainGroup = 2478C6F1244DA1B6008BE3F3;
-			productRefGroup = 2478C6FB244DA1B6008BE3F3 /* Products */;
+			mainGroup = 285718E424683B25001D599C;
+			productRefGroup = 285718EE24683B25001D599C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2478C6F9244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */,
-
+				285718EC24683B25001D599C /* 1238파티 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-
-		2478C6F6244DA1B6008BE3F3 /* Sources */ = {
+		285718E924683B25001D599C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2478C6FE244DA1B7008BE3F3 /* main.cpp in Sources */,
-
+				285718F124683B25001D599C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-
-		2478C6FF244DA1B7008BE3F3 /* Debug */ = {
-
+		285718F224683B25001D599C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,9 +176,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -206,9 +184,7 @@
 			};
 			name = Debug;
 		};
-
-		2478C700244DA1B7008BE3F3 /* Release */ = {
-
+		285718F324683B25001D599C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,18 +228,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-
-		2478C702244DA1B7008BE3F3 /* Debug */ = {
-
+		285718F524683B25001D599C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -271,9 +243,7 @@
 			};
 			name = Debug;
 		};
-
-		2478C703244DA1B7008BE3F3 /* Release */ = {
-
+		285718F624683B25001D599C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -284,31 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-
-		2478C6F5244DA1B6008BE3F3 /* Build configuration list for PBXProject "9205맥주마시면서걸어가기" */ = {
+		285718E824683B25001D599C /* Build configuration list for PBXProject "1238파티" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2478C6FF244DA1B7008BE3F3 /* Debug */,
-				2478C700244DA1B7008BE3F3 /* Release */,
-
+				285718F224683B25001D599C /* Debug */,
+				285718F324683B25001D599C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-
-		2478C701244DA1B7008BE3F3 /* Build configuration list for PBXNativeTarget "9205맥주마시면서걸어가기" */ = {
+		285718F424683B25001D599C /* Build configuration list for PBXNativeTarget "1238파티" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2478C702244DA1B7008BE3F3 /* Debug */,
-				2478C703244DA1B7008BE3F3 /* Release */,
-
+				285718F524683B25001D599C /* Debug */,
+				285718F624683B25001D599C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-
-	rootObject = 2478C6F2244DA1B6008BE3F3 /* Project object */;
-
+	rootObject = 285718E524683B25001D599C /* Project object */;
 }
