@@ -1,6 +1,10 @@
 //
 //  main.cpp
+<<<<<<< HEAD
 //  2795사업확장
+=======
+//  2795사업확장
+>>>>>>> 050807bcffc52824e07caf6a7d4a7825735bb2cc
 //
 //  Created by 김다은 on 2020/05/10.
 //  Copyright © 2020 김다은. All rights reserved.
@@ -15,6 +19,7 @@ int guard[201] = {0,};
 
 int cnt = 0;
 
+<<<<<<< HEAD
 
 void dfs(int cur, int checkArr[201][201]){
     int start = cur;
@@ -24,6 +29,8 @@ void dfs(int cur, int checkArr[201][201]){
         }
     }
 }
+=======
+>>>>>>> 050807bcffc52824e07caf6a7d4a7825735bb2cc
 void floydWarshall(){ // 뉴욕에서 출발해서 LA를 방문했다가 다시 뉴욕으로 돌아온다. 뉴욕은 1, LA는 2
     int d[1002][1002];
     
@@ -35,6 +42,7 @@ void floydWarshall(){ // 뉴욕에서 출발해서 LA를 방문했다가 다시 
     for(int z = 1; z <= N; z++){ // 중간 인덱스
         for(int i = 1; i <= N; i++){ // 시작
             for(int j = 1; j <= N; j++){ // 끝
+<<<<<<< HEAD
 //                if((i==1 || j==2) && (i==2 || j==1)){
 //                    guard[z]++;
                     if (d[i][z] + d[z][j] < d[i][j]) {
@@ -58,6 +66,19 @@ void floydWarshall(){ // 뉴욕에서 출발해서 LA를 방문했다가 다시 
 //                    }
 //                    d[i][j] = d[i][z] + d[z][j];
 //                }
+=======
+                if (d[i][z] + d[z][j] < d[i][j]) {
+                    if(i==1 || z==2){
+                        
+                        guard[j]++;
+                    }
+                    if(j==1 || z==2){
+//                        cout<<i <<" "<<j <<" "<<d[i][z] + d[z][j]<<endl;
+                        guard[i]++;
+                    }
+                    d[i][j] = d[i][z] + d[z][j];
+                }
+>>>>>>> 050807bcffc52824e07caf6a7d4a7825735bb2cc
             }
         }
     }
@@ -79,6 +100,7 @@ int main(int argc, const char * argv[]) {
         cin >> a >> b;
         arr[a][b] = 1;
     }
+<<<<<<< HEAD
     cout<<endl;
     floydWarshall();
 //    guard[1] = 1;
@@ -118,3 +140,15 @@ int main(int argc, const char * argv[]) {
 //4 2
 //2 6
 //6 3
+=======
+    floydWarshall();
+    guard[1] = 1;
+    for(int i = 1;i<=N;i++){
+        if(guard[i]!=0)
+            cnt++;
+//        cout<<guard[i] <<" ";
+    }
+//    cout<<endl;
+    cout<< cnt<<endl;
+}
+>>>>>>> 050807bcffc52824e07caf6a7d4a7825735bb2cc
