@@ -7,7 +7,10 @@
 //
 
 #include <iostream>
+<<<<<<< HEAD
+=======
 #include <algorithm>
+>>>>>>> 050807bcffc52824e07caf6a7d4a7825735bb2cc
 using namespace std;
 
 int N, M, X;
@@ -22,6 +25,10 @@ void floydWarshall(){
         }
     }
     
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 050807bcffc52824e07caf6a7d4a7825735bb2cc
     for(int z = 1; z <= N; z++){ // 중간 인덱스
         for(int i = 1; i <= N; i++){ // 시작
             for(int j = 1; j <= N; j++){ // 끝
@@ -32,8 +39,17 @@ void floydWarshall(){
         }
     }
     
+<<<<<<< HEAD
+    for(int i = 1;i<=N;i++){
+        for(int j = 1;j<=N;j++){
+            cout<<d[i][j]<<" ";
+            maxTime = max(d[i][j], maxTime);
+        }
+        cout<<endl;
+=======
     for(int i = 1;i<=N;i++){ // X번 마을로 갔다가 그들 마을로 돌아와야 한다는 문제의 조건
         maxTime = max(d[i][X] + d[X][i], maxTime);
+>>>>>>> 050807bcffc52824e07caf6a7d4a7825735bb2cc
     }
     
 }
@@ -56,4 +72,7 @@ int main(int argc, const char * argv[]) {
     floydWarshall();
     cout<< maxTime<<endl;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 050807bcffc52824e07caf6a7d4a7825735bb2cc
