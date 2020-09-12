@@ -9,9 +9,26 @@
 #include <iostream>
 using namespace std;
 
+void Hanoi(int n, int from, int by, int to){
+    if(n==1)
+        printf("%d %d\n", from , to);
+    else{
+        Hanoi(n-1, from, to, by);
+        printf("%d %d\n", from , to);
+        Hanoi(n-1, by, from, to);
+    }
+}
+
 int main(int argc, const char * argv[]) {
     int N;
     cin >> N;
     
-    return 0;
+    int totalCnt = 0;
+    for(int i = 0;i<N;i++){
+        totalCnt = totalCnt*2 + 1;
+    }
+    
+    printf("%d\n", totalCnt);
+
+    Hanoi(N, 1, 2, 3);
 }
