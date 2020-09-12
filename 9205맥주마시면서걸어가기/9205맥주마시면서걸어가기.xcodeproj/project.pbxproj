@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28CFF852244DD6AE00FA263D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28CFF851244DD6AE00FA263D /* main.cpp */; };
+
+		2478C6FE244DA1B7008BE3F3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2478C6FD244DA1B7008BE3F3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		28CFF84C244DD6AE00FA263D /* CopyFiles */ = {
+		2478C6F8244DA1B6008BE3F3 /* CopyFiles */ = {
+
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		28CFF84E244DD6AE00FA263D /* 9205맥주마시면서걸어가기 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9205맥주마시면서걸어가기"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28CFF851244DD6AE00FA263D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+
+		2478C6FA244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9205맥주마시면서걸어가기"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2478C6FD244DA1B7008BE3F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28CFF84B244DD6AE00FA263D /* Frameworks */ = {
+		2478C6F7244DA1B6008BE3F3 /* Frameworks */ = {
+
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +42,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28CFF845244DD6AE00FA263D = {
+
+		2478C6F1244DA1B6008BE3F3 = {
 			isa = PBXGroup;
 			children = (
-				28CFF850244DD6AE00FA263D /* 9205맥주마시면서걸어가기 */,
-				28CFF84F244DD6AE00FA263D /* Products */,
+				2478C6FC244DA1B7008BE3F3 /* 9205맥주마시면서걸어가기 */,
+				2478C6FB244DA1B6008BE3F3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		28CFF84F244DD6AE00FA263D /* Products */ = {
+		2478C6FB244DA1B6008BE3F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28CFF84E244DD6AE00FA263D /* 9205맥주마시면서걸어가기 */,
+				2478C6FA244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */,
+
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28CFF850244DD6AE00FA263D /* 9205맥주마시면서걸어가기 */ = {
+
+		2478C6FC244DA1B7008BE3F3 /* 9205맥주마시면서걸어가기 */ = {
 			isa = PBXGroup;
 			children = (
-				28CFF851244DD6AE00FA263D /* main.cpp */,
+				2478C6FD244DA1B7008BE3F3 /* main.cpp */,
+
 			);
-			path = "9205맥주마시면서걸어가기";
+			path = "9205맥주마시면서걸어가기";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28CFF84D244DD6AE00FA263D /* 9205맥주마시면서걸어가기 */ = {
+
+		2478C6F9244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28CFF855244DD6AE00FA263D /* Build configuration list for PBXNativeTarget "9205맥주마시면서걸어가기" */;
+			buildConfigurationList = 2478C701244DA1B7008BE3F3 /* Build configuration list for PBXNativeTarget "9205맥주마시면서걸어가기" */;
 			buildPhases = (
-				28CFF84A244DD6AE00FA263D /* Sources */,
-				28CFF84B244DD6AE00FA263D /* Frameworks */,
-				28CFF84C244DD6AE00FA263D /* CopyFiles */,
+				2478C6F6244DA1B6008BE3F3 /* Sources */,
+				2478C6F7244DA1B6008BE3F3 /* Frameworks */,
+				2478C6F8244DA1B6008BE3F3 /* CopyFiles */,
+
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "9205맥주마시면서걸어가기";
-			productName = "9205맥주마시면서걸어가기";
-			productReference = 28CFF84E244DD6AE00FA263D /* 9205맥주마시면서걸어가기 */;
+			name = "9205맥주마시면서걸어가기";
+			productName = "9205맥주마시면서걸어가기";
+
+			productReference = 2478C6FA244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */;
+
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		28CFF846244DD6AE00FA263D /* Project object */ = {
+
+		2478C6F2244DA1B6008BE3F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "김다은";
 				TargetAttributes = {
-					28CFF84D244DD6AE00FA263D = {
-						CreatedOnToolsVersion = 11.1;
+					2478C6F9244DA1B6008BE3F3 = {
+						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 28CFF849244DD6AE00FA263D /* Build configuration list for PBXProject "9205맥주마시면서걸어가기" */;
+			buildConfigurationList = 2478C6F5244DA1B6008BE3F3 /* Build configuration list for PBXProject "9205맥주마시면서걸어가기" */;
+
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +118,35 @@
 				en,
 				Base,
 			);
-			mainGroup = 28CFF845244DD6AE00FA263D;
-			productRefGroup = 28CFF84F244DD6AE00FA263D /* Products */;
+
+			mainGroup = 2478C6F1244DA1B6008BE3F3;
+			productRefGroup = 2478C6FB244DA1B6008BE3F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28CFF84D244DD6AE00FA263D /* 9205맥주마시면서걸어가기 */,
+				2478C6F9244DA1B6008BE3F3 /* 9205맥주마시면서걸어가기 */,
+
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28CFF84A244DD6AE00FA263D /* Sources */ = {
+
+		2478C6F6244DA1B6008BE3F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CFF852244DD6AE00FA263D /* main.cpp in Sources */,
+				2478C6FE244DA1B7008BE3F3 /* main.cpp in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		28CFF853244DD6AE00FA263D /* Debug */ = {
+
+		2478C6FF244DA1B7008BE3F3 /* Debug */ = {
+
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,7 +196,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -184,7 +206,9 @@
 			};
 			name = Debug;
 		};
-		28CFF854244DD6AE00FA263D /* Release */ = {
+
+		2478C700244DA1B7008BE3F3 /* Release */ = {
+
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,14 +252,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		28CFF856244DD6AE00FA263D /* Debug */ = {
+
+		2478C702244DA1B7008BE3F3 /* Debug */ = {
+
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +271,9 @@
 			};
 			name = Debug;
 		};
-		28CFF857244DD6AE00FA263D /* Release */ = {
+
+		2478C703244DA1B7008BE3F3 /* Release */ = {
+
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +284,31 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28CFF849244DD6AE00FA263D /* Build configuration list for PBXProject "9205맥주마시면서걸어가기" */ = {
+
+		2478C6F5244DA1B6008BE3F3 /* Build configuration list for PBXProject "9205맥주마시면서걸어가기" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28CFF853244DD6AE00FA263D /* Debug */,
-				28CFF854244DD6AE00FA263D /* Release */,
+				2478C6FF244DA1B7008BE3F3 /* Debug */,
+				2478C700244DA1B7008BE3F3 /* Release */,
+
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28CFF855244DD6AE00FA263D /* Build configuration list for PBXNativeTarget "9205맥주마시면서걸어가기" */ = {
+
+		2478C701244DA1B7008BE3F3 /* Build configuration list for PBXNativeTarget "9205맥주마시면서걸어가기" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28CFF856244DD6AE00FA263D /* Debug */,
-				28CFF857244DD6AE00FA263D /* Release */,
+				2478C702244DA1B7008BE3F3 /* Debug */,
+				2478C703244DA1B7008BE3F3 /* Release */,
+
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 28CFF846244DD6AE00FA263D /* Project object */;
+
+	rootObject = 2478C6F2244DA1B6008BE3F3 /* Project object */;
+
 }
